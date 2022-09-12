@@ -200,4 +200,22 @@ a {
 .dark {
   color: rgba(0, 0, 0, 0.6);
 }
+
+.imgHeader img {
+  max-height: 400px;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.sideMirror {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff;
+  padding: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
