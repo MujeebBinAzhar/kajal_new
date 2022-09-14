@@ -430,3 +430,54 @@ h2{
     right: inherit;
   }
 }
+
+
+.serviceCard{
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ 
+  overflow: hidden;
+ 
+  .patti{
+    background-color: #FFDC25;
+    padding: 0.3rem 0;
+    border: 2px solid #000;
+    
+  }
+
+  .topSection{
+    img{
+      max-height: 193px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    
+  }
+
+  .bottomSection{
+    padding: 1rem;
+    ul{
+      list-style: none;
+      padding: 0;
+       li{
+        img{
+          max-height: 25px;
+        }
+        display: flex;
+        
+         p{
+          font-weight: 600;
+          letter-spacing: 1px;
+          font-size: 18px;
+           
+          margin-left: 10px;
+          span{
+            border-bottom: 3px solid #FFDC25;
+          }
+         }
+       }
+       
+    }
+  }
+}

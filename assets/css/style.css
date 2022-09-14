@@ -443,4 +443,54 @@ h2 span {
     right: inherit;
   }
 }
+
+.serviceCard {
+  background-color: #fff;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+}
+
+.serviceCard .patti {
+  background-color: #FFDC25;
+  padding: 0.3rem 0;
+  border: 2px solid #000;
+}
+
+.serviceCard .topSection img {
+  max-height: 193px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.serviceCard .bottomSection {
+  padding: 1rem;
+}
+
+.serviceCard .bottomSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.serviceCard .bottomSection ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.serviceCard .bottomSection ul li img {
+  max-height: 25px;
+}
+
+.serviceCard .bottomSection ul li p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.serviceCard .bottomSection ul li p span {
+  border-bottom: 3px solid #FFDC25;
+}
 /*# sourceMappingURL=style.css.map */
